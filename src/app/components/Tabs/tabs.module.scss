@@ -1,0 +1,20 @@
+.tabs {
+  display: flex;
+  font-family: Arial, sans-serif;
+  margin-top: 70px;
+  justify-content: space-between;
+}
+
+.tab {
+  padding: 2px 20px;
+  cursor: default;
+  color: gray;
+  border-bottom: 2px solid #ddd;
+}
+
+.tab.active {
+  color: #5876b7;
+  font-weight: bold;
+  border-bottom: 3px solid #5876b7;
+}
+

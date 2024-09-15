@@ -1,0 +1,13 @@
+<svg
+              width="17"
+              height="17"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 2l2.5 7.5h7.5l-6 4.5 2.5 7.5-6-4.5-6 4.5 2.5-7.5-6-4.5h7.5L12 2z"
+                fill="none"
+                stroke="#707066"
+                strokeWidth="2" 
+              />
+            </svg>

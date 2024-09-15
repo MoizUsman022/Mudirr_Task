@@ -1,0 +1,28 @@
+.dashboard{
+    background-color: white;
+}
+
+.dashboard h1 {
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+  }
+
+.texticons{
+    padding-bottom: 0;
+    padding-left: 50px;
+    padding-top: 50px;
+
+}
+
+.texticons p{
+    font-size: medium;
+
+    color: #707066;
+}
+
+.projects{
+    display: flex;
+    gap: 70px;
+    margin-top: 30px;
+}

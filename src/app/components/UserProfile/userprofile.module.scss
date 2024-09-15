@@ -1,0 +1,19 @@
+.image{
+    border-radius: 50%;
+}
+
+.name{
+    padding: 10px;
+}
+
+.name p {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 200px;
+  }
+
+.username{
+    font-size: large;
+    font-weight: 700;
+}

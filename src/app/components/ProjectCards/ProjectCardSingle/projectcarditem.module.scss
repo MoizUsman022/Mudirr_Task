@@ -1,0 +1,30 @@
+.title{
+    font-size: 1rem;
+}
+
+.badge{
+    background-color: #dbe2f0;
+    width: fit-content;
+    padding: 2px 5px;
+    margin-bottom: 4px;
+}
+
+.btn{
+    background-color: #5876b7;
+}
+
+.btn:hover{
+    background-color: #334876;
+}
+
+.card:active{
+    border-color: #334876;
+}
+
+.card{
+    transition: border-color 0.3s ease;
+}
+
+.card:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,29 @@
+
+
+
+.selectedItem{
+    background-color: white;
+    padding-right: 160px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.otherbtns{
+    padding-right: 150px;
+    padding-left: 10px;
+}
+
+.btnHistory{
+    padding-right: 120px;
+    padding-left: 10px;
+    padding-top: 2px;
+}
+
+.btnHistory:hover{
+    color: black;
+}
+
+.btnHistory svg{
+    fill: black;
+}
