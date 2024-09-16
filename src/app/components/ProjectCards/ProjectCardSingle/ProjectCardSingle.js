@@ -18,7 +18,7 @@ const ProjectCardSingle = ({ title, progress, status, milestone }) => {
       cursor="pointer"
     >
         <Box display="flex" gap={4} alignItems="center"> 
-      <Text as="h3" fontWeight="bold" fontSize="xl" className={classes.title} mb={2}>
+      <Text as="h3" fontWeight="bold" fontSize="xl" className={classes.title}>
         {title}
       </Text>
       <Image src="/three-dots.png" width={25} height={25} alt='three-dots'/>
@@ -35,7 +35,7 @@ const ProjectCardSingle = ({ title, progress, status, milestone }) => {
           <div className={classes.badge}><Text color="#607dbb !important" as="p" fontSize="sm !important">Next milestone: {milestone}</Text></div>
 
 <Box display="flex" alignContent="center" alignItems="center" justifyContent="space-between">
-      <Text mb={2} as="h2" fontWeight="bold" mt={4} fontSize="large !important">
+      <Text  as="h2" fontWeight="bold" mt={4} fontSize="large !important">
         Follow up with manager
       </Text>
       <Button  className={classes.btn} colorScheme='#5876b7' variant='solid'>

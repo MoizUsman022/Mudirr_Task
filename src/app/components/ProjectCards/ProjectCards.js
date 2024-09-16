@@ -17,14 +17,23 @@ const ProjectGrid = () => {
         base: 'repeat(1, 1fr)',  
         md: 'repeat(2, 1fr)', 
         xl: 'repeat(3, 1fr)', 
-        
+        '2xl': 'repeat(4, 1fr)',
+        '3xl': 'repeat(5, 1fr)',
       }}
       gap={6}
-      p={5}
+      p={{ base: 2, md: 4, xl: 5, '3xl':8}}  // Responsive padding
+      width="100%"
+      maxWidth="100vw"
+      overflowX="hidden"
     >
       {projectcarditems.map((project, index) => (
-        <GridItem key={index}>
-          <ProjectCardSingle {...project} /> {/* Pass individual project data */}
+        <GridItem
+          key={index}
+          width="100%"                     // Make sure GridItem takes full width
+          boxSizing="border-box"           // Include padding/border in element's width
+          overflow="hidden"                // Prevent content from overflowing the card
+        >
+          <ProjectCardSingle {...project} />
         </GridItem>
       ))}
     </Grid>
