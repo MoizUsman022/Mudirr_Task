@@ -5,9 +5,9 @@ const theme = extendTheme({
     base: "0em",
     sm: "30em",
     md: "48em",
-    lg: "62em",
+    lg: "65em",
     xl: "85em",
-    "2xl": "96em", 
+    "2xl": "109em", 
     '3xl': "132em"
   },
 });

@@ -14,14 +14,14 @@ const ProjectGrid = () => {
   return (
     <Grid
       templateColumns={{
-        base: 'repeat(1, 1fr)',  
-        md: 'repeat(2, 1fr)', 
+        lg: 'repeat(2, 1fr)',  
+        md: 'repeat(1, 1fr)', 
         xl: 'repeat(3, 1fr)', 
         '2xl': 'repeat(4, 1fr)',
         '3xl': 'repeat(5, 1fr)',
       }}
+      p={4}
       gap={6}
-      p={{ base: 2, md: 4, xl: 5, '3xl':8}}  // Responsive padding
       width="100%"
       maxWidth="100vw"
       overflowX="hidden"
