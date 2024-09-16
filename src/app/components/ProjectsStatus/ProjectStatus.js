@@ -9,7 +9,7 @@ const ProjectStatus = ({ projectstatuses }) => {
       className={classes.projectStatusContainer}
       display={{ base: "grid", lg: "flex" }}
       gridTemplateColumns={{ base: "1fr 1fr" }}
-      gap={{ base:"40px", md:"80px"}}
+      gap={{ base:"10px", md:"80px"}}
     >
       {" "}
       {projectstatuses.map((project, index) => (
