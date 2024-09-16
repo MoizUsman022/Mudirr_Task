@@ -4,7 +4,6 @@
     margin: 20px 0px;
   }
 
-  /* Step circles */
   .step {
     width: 15px;
     height: 15px;
@@ -15,7 +14,6 @@
     margin: 0;
   }
 
-  /* Blue line between steps */
   .line {
     width: 60px;
     height: 3px;
@@ -23,17 +21,14 @@
     position: relative;
   }
 
-  /* Active step (completed) */
   .step.active {
     background-color: #5876b7;
   }
 
-  /* Active line (completed line) */
   .line.active {
     background-color: #5876b7;
   }
 
-  /* Label underneath steps */
   .stepLabel {
     text-align: center;
     margin-top: 8px;

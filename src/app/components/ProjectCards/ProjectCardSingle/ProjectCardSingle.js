@@ -1,10 +1,10 @@
 import React from 'react';
-import { Box, Text, Progress, Button, Badge } from '@chakra-ui/react';
+import { Box, Text, Button, Badge } from '@chakra-ui/react';
 import ProgressBar from '../../ProgressBar/ProgressBar';
 import classes from './projectcarditem.module.scss';
 import Image from 'next/image';
 
-const ProjectCardSingle = ({ title, progress, status, milestone }) => {
+const ProjectCardSingle = ({ title, milestone }) => {
   return (
     <Box
     className={classes.card}
@@ -13,7 +13,7 @@ const ProjectCardSingle = ({ title, progress, status, milestone }) => {
       boxShadow="sm"
       transition="all 0.2s"
       width="400px"   
-      height="300px"   
+      height={{ base:'400px', sm:'300px'}}   
       maxWidth="100%" 
       cursor="pointer"
     >

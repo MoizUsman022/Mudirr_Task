@@ -7,9 +7,9 @@ import PinnedProjectItem from './PinnedProjectItem/PinnedProjectItem'
 const PinnedProjects = () => {
 
     const pinnedprojects = [
-        { title: 'Porject Name 1', imageSrc: '/star.svg' },
-        { title: 'Porject Name 2', imageSrc: '/star.svg' },
-        { title: 'Porject Name 3', imageSrc: '/star.svg' }
+        { title: 'Project Name 1', imageSrc: '/star.svg' },
+        { title: 'Project Name 2', imageSrc: '/star.svg' },
+        { title: 'Project Name 3', imageSrc: '/star.svg' }
       ];
   return (
     <div>

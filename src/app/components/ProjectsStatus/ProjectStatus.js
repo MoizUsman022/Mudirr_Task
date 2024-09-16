@@ -1,11 +1,16 @@
 import React from "react";
 import classes from "./projectstatus.module.scss";
 import Image from "next/image";
-import { Text } from "@chakra-ui/react";
+import { Text, Box } from "@chakra-ui/react";
 
 const ProjectStatus = ({ projectstatuses }) => {
   return (
-    <>
+    <Box
+      className={classes.projectStatusContainer}
+      display={{ base: "grid", lg: "flex" }}
+      gridTemplateColumns={{ base: "1fr 1fr" }}
+      gap={{ base:"40px", md:"80px"}}
+    >
       {" "}
       {projectstatuses.map((project, index) => (
         <div key={index} className={classes.folderItem}>
@@ -21,7 +26,7 @@ const ProjectStatus = ({ projectstatuses }) => {
           </div>
         </div>
       ))}
-    </>
+  </Box>
   );
 };
 

@@ -7,19 +7,19 @@ import classes from './tabs.module.scss'
 const Tabs = () => {
   return (
     <div>
-      <div className={classes.tabs}>
-        <Box display="flex">
+      <Box className={classes.tabs} flexDirection={{ base: 'column', md: 'row' }} >
+        <Box display="flex" mb={10}>
       <div className={`${classes.tab} ${classes.active}`}>Ongoing</div>
         <div className={classes.tab}>Completed</div>
         <div className={classes.tab}>Cancelled</div>
         <div className={classes.tab}>Drafts</div>
         </Box>
         <div>
-        <Button mr={4} color="white" leftIcon={<Image src="/add-icon.png" width={20} height={20} />} sx={{ backgroundColor: "#5876b7" }} variant='solid'>
+        <Button _hover={{ backgroundColor:"#334876"}} mr={4} m={{base:'20px'}} color="white" leftIcon={<Image src="/add-icon.png" width={20} height={20} />} sx={{ backgroundColor: "#5876b7" }} variant='solid'>
     Create a Project
   </Button>
         </div>
-      </div>
+      </Box>
     </div>
   );
 };

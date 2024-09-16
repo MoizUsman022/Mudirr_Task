@@ -15,12 +15,12 @@ const ProjectGrid = () => {
     <Grid
       templateColumns={{
         lg: 'repeat(2, 1fr)',  
-        md: 'repeat(1, 1fr)', 
+        base: 'repeat(1, 1fr)', 
         xl: 'repeat(3, 1fr)', 
         '2xl': 'repeat(4, 1fr)',
         '3xl': 'repeat(5, 1fr)',
       }}
-      p={4}
+      p={{ base:0, lg:2}}
       gap={6}
       width="100%"
       maxWidth="100vw"
@@ -29,9 +29,9 @@ const ProjectGrid = () => {
       {projectcarditems.map((project, index) => (
         <GridItem
           key={index}
-          width="100%"                     // Make sure GridItem takes full width
-          boxSizing="border-box"           // Include padding/border in element's width
-          overflow="hidden"                // Prevent content from overflowing the card
+          width="100%"                     
+          boxSizing="border-box"           
+          overflow="hidden"                
         >
           <ProjectCardSingle {...project} />
         </GridItem>

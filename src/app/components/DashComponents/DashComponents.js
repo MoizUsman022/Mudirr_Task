@@ -20,7 +20,7 @@ const DashComponents = () => {
         marginTop={10}
       >
         <VStack align="start" spacing={4}>
-          <HStack spacing={2} className={classes.selectedItem} borderRadius="md">
+          <HStack spacing={2} className={classes.selectedItem} pr={{  base: 20, 'xlm': 36 }} borderRadius="md">
           <Image src="/star-fill.svg" width="17" height="17" alt="star"/>
             <Text fontWeight="bold" fontSize="lg" color="black">
               Dashboard

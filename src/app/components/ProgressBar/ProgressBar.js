@@ -18,7 +18,7 @@ const ProgressBar = () => {
 
         <div className={classes.step}></div>
 
-        <Text ml={4}>3/4 done</Text>
+        <Text ml={4}>3/4 Done</Text>
       </div>
 
       

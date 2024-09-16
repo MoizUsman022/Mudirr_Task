@@ -8,7 +8,7 @@ const PinnedProjectItem = ({pinnedprojects}) => {
     <div>
       <div>   
     {pinnedprojects.map((pinnedproject, index) => (
-        <HStack key={index} spacing={24} flex="1" p={2}>
+       <HStack key={index} spacing={{ 'xl': 8, '2xl':20}} flex="1" textAlign="left"  ml={{  'xll': 5, '2xl':10 }} p={2}>
             <div className={classes.star}>
             <Image className={classes.image} width={18} height={18} src={pinnedproject.imageSrc} alt="star-icon" />
           <Text color="gray.600" _hover={{ color: "#000000" , cursor:"default"}}>{pinnedproject.title}</Text>
